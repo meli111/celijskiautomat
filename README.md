@@ -1,2 +1,2 @@
 # celijskiautomat
-Jednostavan ćelijski automat napisan za GNU Octave.
+Ćelijski automat napisan za GNU Octave.
