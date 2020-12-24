@@ -29,8 +29,7 @@ end
 
 if n==tip1 
    if rand(1)<p
-        ind=1+round(4*rand(1));
-        vr=n;
+        vr=tip2;
    end
 end       
   

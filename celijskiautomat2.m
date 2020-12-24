@@ -25,8 +25,7 @@ for m=1:round(t)
             
            [A(j,k),ind]=zivot2(p,A(j,k),A(j-1,k),A(j+1,k),A(j,k-1),A(j,k+1));
            
-            switch ind
-              case 1,
+            if ind==1
                if A(j-1,k)==tip1
                  A(j-1,k)=tip3;
                end
@@ -39,14 +38,7 @@ for m=1:round(t)
                 if A(j,k+1)==tip1
                  A(j,k+1)=tip3;
                  end 
-                case 2,
-                    A(j-1,k)=tip2;
-                case 3,
-                    A(j+1,k)=tip2;
-                case 4,
-                    A(j,k-1)=tip2;
-                case 5,
-                    A(j,k+1)=tip2;
+             end   
             end 
         end
    imshow(A);
