@@ -1,6 +1,6 @@
 function celijskiautomat2(n,p,t)
   % Ćelijski automat generiše animaciju razvitka ćelija počev od 5 centralnih ćelija, 
-  % u zadatim vremenu t pomoću zadate verovatnoće p, na mreži dimenzija nxn.
+  % u zadatom vremenu t pomoću zadate verovatnoće p, na mreži dimenzija nxn.
   % Primer:  celijskiautomat2(70,0.9,15)
   
 tip1=0;
